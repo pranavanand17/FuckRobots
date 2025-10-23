@@ -1,5 +1,5 @@
-**
-<img width="952" height="537" alt="image" src="https://github.com/user-attachments/assets/96c61bc2-5766-4642-8983-7860f36c4aa6" />
-**
-Fuck Robots the game
+##
+<img width="953" height="626" alt="image" src="https://github.com/user-attachments/assets/bdd45be3-5854-4dff-996b-f8b6bc0bcbfd" />
+##
+Fuck Robots the game (Under perenial development)
 
