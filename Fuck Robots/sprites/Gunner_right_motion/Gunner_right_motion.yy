@@ -2,17 +2,17 @@
   "$GMSprite":"",
   "%Name":"Gunner_right_motion",
   "bboxMode":2,
-  "bbox_bottom":127,
+  "bbox_bottom":123,
   "bbox_left":56,
   "bbox_right":95,
-  "bbox_top":53,
+  "bbox_top":49,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a6341e32-185c-4657-8bad-3b4e32ae49f9","name":"a6341e32-185c-4657-8bad-3b4e32ae49f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7ca1bdad-87fe-42b4-a25a-5313ae2074e8","name":"7ca1bdad-87fe-42b4-a25a-5313ae2074e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"f0e3c411-fa24-44e0-9423-54dca5fe469f","name":"f0e3c411-fa24-44e0-9423-54dca5fe469f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"898afac5-dde4-4994-9766-d521338da528","name":"898afac5-dde4-4994-9766-d521338da528","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Player",
+    "path":"folders/Sprites/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -73,8 +73,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6341e32-185c-4657-8bad-3b4e32ae49f9","path":"sprites/Gunner_right_motion/Gunner_right_motion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1d0020c0-836e-42cb-b974-3b80e7ddc672","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ca1bdad-87fe-42b4-a25a-5313ae2074e8","path":"sprites/Gunner_right_motion/Gunner_right_motion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8f7ab590-13f9-4862-a31f-5f1d98ee0935","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0e3c411-fa24-44e0-9423-54dca5fe469f","path":"sprites/Gunner_right_motion/Gunner_right_motion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2d8a93f5-b49e-4db0-aada-c2b2c36dc560","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

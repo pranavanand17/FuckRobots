@@ -14,18 +14,31 @@ getControls();
 
 	//X colllision
 	var _subPixel=.5;
-	if place_meeting(x+xsped, y, Wall){
-	
-		//Scoot up to wall precisely
-		var _pixelCheck = _subPixel*sign(xsped);
-		while !place_meeting(x+_pixelCheck, y, Wall)
+	if place_meeting(x+xsped, y, Wall)
+	{
+		//First check if there is a slope to go up
+		if !place_meeting(x + xsped, y - abs(xsped)-1, Wall)
 		{
-			x+=_pixelCheck;
+			while place_meeting(x+xsped,y, Wall) {
+				y -= _subPixel;
+			};
 		}
+		//If there's no slope, regular collision
+		else
+		{
+		
+		
+			//Scoot up to wall precisely
+			var _pixelCheck = _subPixel*sign(xsped);
+			while !place_meeting(x+_pixelCheck, y, Wall)
+			{
+				x+=_pixelCheck;
+			}
 	
-		//Set xsped to zero to "collide"
-		xsped=0;
-	}
+			//Set xsped to zero to "collide"
+			xsped=0;
+		}
+	} 
 
 	//Move
 	x+=xsped;

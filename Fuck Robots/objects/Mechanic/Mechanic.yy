@@ -6,8 +6,8 @@
   "name":"Mechanic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Friends",
+    "path":"folders/Objects/Friends.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,3 +1,5 @@
+event_inherited();
+
 dir=0;
 sped=5;
 xsped=0;
